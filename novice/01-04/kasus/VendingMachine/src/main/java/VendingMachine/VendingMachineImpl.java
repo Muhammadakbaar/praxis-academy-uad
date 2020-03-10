@@ -47,6 +47,7 @@ public class VendingMachineImpl implements VendingMachine {
         cashInventory.add(coin);
     }
 
+
     @Override
     public Bucket<Item, List<Coin>> collectItemAndChange() {
         Item item = collectItem();
