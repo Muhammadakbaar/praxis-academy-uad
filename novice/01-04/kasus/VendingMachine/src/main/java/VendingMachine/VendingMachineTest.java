@@ -6,11 +6,11 @@ import java.util.List;
 
 public class VendingMachineTest {
     
-    public void SelectItemAndGetPrice(Item item) {
-        
+    public long selectItemAndGetPrice(Item item) {
+        return 0;
 
     }
-    public static void main(String[] akbar) {
+    public static void main(String[] args) {
         
     }
 
